@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-color: rgb(56 17 56);
+            background-position: center;
+            font-family: sans-serif;
+        }
+
+        .dfiles {
+            width: 1100px;
+            background-color: rgb(0, 0, 0, 0.6);
+            margin: auto;
+            color: #ffffff;
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+            border-radius: 15px 15px 0px 0px;
+            height: 40px;
+        }
+
+        .main {
+            background-color: rgb(0, 0, 0, 0.5);
+            width: 1100px;
+            margin: auto;
+            padding: 55px 0px 55px 82px;
+            color: #ffffff;
+            border-radius: 15px;
+            margin-bottom: 4px;
+        }
+
+        footer {
+            float: right;
+            padding-right: 400px;
+            height: 100px;
+        }
+
+
+        .btn {
+            background-color: white;
+            padding: 6px;
+            border: 2px solid black;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            color: white;
+            background-color: black;
+            border: 2px solid white;
+        }
+
+        .submit {
+            background-color: white;
+            padding: 6px;
+            border: 2px solid black;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 4px;
+            font-weight: bolder;
+        }
+
+        .submit:hover {
+            color: white;
+            background-color: black;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dfiles">
+        <h1>-:Documentation:-</h1>
+    </div><br><br>
+    <form>
+        <div class="main">
+            <h2 class="name">Upload HSC marksheet:</h2><br><br>
+            <input type="file" accept=".jpg/.pdf/.doc"><br><br>
+            <h2 class="name">upload SSC marksheet:</h2><br><br>
+            <input type="file" accept=".jpg/.pdf/.doc"><br><br>
+            <h2 class="name">upload Current Marksheet:</h2><br><br>
+            <input type="file" accept=".jpg/.pdf/.doc"><br> <br>
+
+
+        </div>
+    </form>
+    <footer>
+        <button><a href="secondpage.html" class="btn">previous Page</a></button>
+        <input type="submit" value="Submit" class="submit">
+    </footer>
+</body>
+
+</html>
